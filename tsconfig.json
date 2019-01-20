@@ -1,9 +1,20 @@
 {
-    "compilerOptions": {
-        // "target": "es6",
-        "target": "esnext",
-        "module": "commonjs",
-        "outDir": "./js",
-        "sourceMap": true
-    }
+  "compilerOptions": {
+    // "target": "es6",
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "./js",
+    "sourceMap": true,
+    // "baseUrl": "./",
+    // "paths": {
+    //   "@/*": [
+    //   "ts/*",
+    //   "spec/*",
+    //   ]
+    // },
+  },
+//   "include": [
+//     "ts/**/*.ts",
+//     "spec/**/*.ts",
+//   ],
 }
